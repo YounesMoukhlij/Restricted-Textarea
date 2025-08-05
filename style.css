@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body
+{
+    height: 100%;
+    width: 100%;
+}
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.container
+{
+    width: 70%;
+    height: 50%;
+    border-radius: 40px;
+    border: 3px solid black;
+
+    padding: 20px;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    & .input-text
+    {
+        height: 99%;
+
+        width: 100%;
+        align-items: flex-start;
+
+
+        position: relative;
+
+
+        & #text
+        {
+            height: 100%;
+            border: none;
+            width: 100%;
+            color: gray;
+            font-size: large;
+
+
+            line-height: 1.2;
+            padding-top: 20px;
+            vertical-align: top;
+
+            text-align-last: start;
+            vertical-align: text-top;
+
+            border: none;
+            outline: none;
+            line-height: 1.5;
+        }
+
+        & #text::placeholder
+        {
+            position: absolute;
+        }
+    }
+    & .counter
+    {
+        padding: 10px;
+        font-weight: 500;
+        align-self:flex-end;
+    }
+}
