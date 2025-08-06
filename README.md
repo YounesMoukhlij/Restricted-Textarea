@@ -19,7 +19,23 @@ A dynamic textarea component that tracks and displays the number of characters t
 ## How It Works
 
 1. The textarea tracks input events (`input`, `keydown`, `paste`)
-2. Character count is calculated and displayed in real-time
+2. Character count is calculated and displayed in real-## Project Overview
+
+Here are screenshots showing the restricted textarea functionality:
+
+### 1. Initial State
+![Initial State](images/1.png)
+*The textarea in its initial state, ready for user input*
+
+### 2. Character Counting
+![Character Counting](images/2.png)
+*Real-time character counting as the user types*
+
+### 3. Limit Reached
+![Limit Reached](images/3.png)
+*Visual feedback when the character limit is reached - red styling indicates no more input allowed*
+
+---time
 3. When the limit is reached:
    - Further typing is prevented
    - Visual styling changes (red border)
