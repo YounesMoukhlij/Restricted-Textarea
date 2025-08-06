@@ -1,5 +1,10 @@
 # Restricted Textarea
 
+<div align="center">
+
+[✅ Back to Web Roadmap Projects ✅](https://github.com/YounesMoukhlij/web-roadmap-projects)
+</div>
+
 A dynamic textarea component that tracks and displays the number of characters typed by the user, along with a maximum character limit. As the user types, the character count updates in real-time. Once the limit is reached, the textarea prevents further input and the border turns red to visually indicate the limit has been hit.
 
 ## Features
